@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-loading-bar.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"blog.haodigtal.xyz","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="嘿！嘿！嘿！小白！小白！你咋又让拴住了!😆">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tech-st ~by hao❤">
+<meta property="og:url" content="http://blog.haodigtal.xyz/index.html">
+<meta property="og:site_name" content="Tech-st ~by hao❤">
+<meta property="og:description" content="嘿！嘿！嘿！小白！小白！你咋又让拴住了!😆">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="hao">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://blog.haodigtal.xyz/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>Tech-st ~by hao❤</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
+<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
+<script src="\assets\js\Meting.min.js" class="meting-script-marker"></script>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Tech-st ~by hao❤</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">闲的无聊分享点干货O(∩_∩)O</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content index posts-expand">
+            
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.haodigtal.xyz/2020/04/27/about/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://s1.ax1x.com/2020/04/27/JfOaF0.jpg">
+      <meta itemprop="name" content="hao">
+      <meta itemprop="description" content="嘿！嘿！嘿！小白！小白！你咋又让拴住了!😆">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Tech-st ~by hao❤">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/04/27/about/" class="post-title-link" itemprop="url">About this web</a>
+        </h2>
+
+        <div class="post-meta">
+          
+        <i class="fa fa-thumb-tack"></i>
+        <font color=7D26CD>置顶</font>
+        <span class="post-meta-divider">|</span>
+         
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-04-27 16:47:02" itemprop="dateCreated datePublished" datetime="2020-04-27T16:47:02+08:00">2020-04-27</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-04-13 14:09:17" itemprop="dateModified" datetime="2022-04-13T14:09:17+08:00">2022-04-13</time>
+              </span>
+
+          
+            <span id="/2020/04/27/about/" class="post-meta-item leancloud_visitors" data-flag-title="About this web" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/04/27/about/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/04/27/about/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p> 🚩22&#x2F;4&#x2F;13更新，hexo-3.0,Next-7.8<br>🎈Github托管，cloudflare cdn已开启<br>🎄全站风景🎄<br><img src="/img/a.jpg" alt="1"><br>🎈在GitHub弄了个仓库整hexo，博客搭建了好久，真的很累😫，以后博客就不用服务器搭建了，GitHub服务器在国外吧，正好可以用我这个没备案的域名，域名解析不好调，Hexo真的比wordpress好多了😉，这个网站会更新一些好用的软件还有我研究的sth<br>🎈发现七牛云当图床真好使😆（坑！当我没说😗）<br>刷一波火箭🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀，庆祝一下！<br>🎈天气API，鼠标悬停显示更多</p>
+<h1 id="blod-haodigtal-xyz"><a href="#blod-haodigtal-xyz" class="headerlink" title="blod.haodigtal.xyz"></a>blod.haodigtal.xyz</h1><h1 id="Loading-is-normal-just-wait💕"><a href="#Loading-is-normal-just-wait💕" class="headerlink" title="Loading is normal, just wait💕"></a>Loading is normal, just wait💕</h1><p><strong><em>Our goal is the sea of stars</em></strong></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.haodigtal.xyz/2022/04/13/muscidemo/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://s1.ax1x.com/2020/04/27/JfOaF0.jpg">
+      <meta itemprop="name" content="hao">
+      <meta itemprop="description" content="嘿！嘿！嘿！小白！小白！你咋又让拴住了!😆">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Tech-st ~by hao❤">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/04/13/muscidemo/" class="post-title-link" itemprop="url">Aplayer~Musci~demo</a>
+        </h2>
+
+        <div class="post-meta">
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-04-13 14:04:27 / 修改时间：14:10:09" itemprop="dateCreated datePublished" datetime="2022-04-13T14:04:27+08:00">2022-04-13</time>
+            </span>
+
+          
+            <span id="/2022/04/13/muscidemo/" class="post-meta-item leancloud_visitors" data-flag-title="Aplayer~Musci~demo" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2022/04/13/muscidemo/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2022/04/13/muscidemo/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+    <div id="aplayer-uZHSGvFV" class="aplayer aplayer-tag-marker meting-tag-marker"
+         data-id="60198" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"
+    ></div>
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.haodigtal.xyz/2020/09/10/office/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://s1.ax1x.com/2020/04/27/JfOaF0.jpg">
+      <meta itemprop="name" content="hao">
+      <meta itemprop="description" content="嘿！嘿！嘿！小白！小白！你咋又让拴住了!😆">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Tech-st ~by hao❤">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/09/10/office/" class="post-title-link" itemprop="url">office tools plus一款office安装工具</a>
+        </h2>
+
+        <div class="post-meta">
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-09-10 21:21:02 / 修改时间：21:53:32" itemprop="dateCreated datePublished" datetime="2020-09-10T21:21:02+08:00">2020-09-10</time>
+            </span>
+
+          
+            <span id="/2020/09/10/office/" class="post-meta-item leancloud_visitors" data-flag-title="office tools plus一款office安装工具" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/09/10/office/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/09/10/office/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="Office-tools🥕传送门"><a href="#Office-tools🥕传送门" class="headerlink" title="Office tools🥕传送门"></a>Office tools🥕<a target="_blank" rel="noopener" href="https://otp.landian.vip/zh-cn/">传送门</a></h1><p>✔其实官网也有教程<br>🎈给你们一个KMS激活网站：🥕<a target="_blank" rel="noopener" href="https://kms.cangshui.net/">传送门</a><br>KMS可以激活win和office<br>🎈哇！好久没更新了😜<br>🎈两张图送上，自行意会😎</p>
+<!---more--->
+<p><img src="/img/t.jpg" alt="1"><br><img src="/img/u.jpg" alt="1"><br>这个软件很久前就知道了，对于安装office-2016版本以上真的很好用😉（当然还有一些微软的东西。）<br>🧨实在是脑壳疼的童鞋可以@me💕</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.haodigtal.xyz/2020/06/17/todesk/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://s1.ax1x.com/2020/04/27/JfOaF0.jpg">
+      <meta itemprop="name" content="hao">
+      <meta itemprop="description" content="嘿！嘿！嘿！小白！小白！你咋又让拴住了!😆">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Tech-st ~by hao❤">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/06/17/todesk/" class="post-title-link" itemprop="url">盘点那些好用的远程桌面</a>
+        </h2>
+
+        <div class="post-meta">
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-06-17 10:54:20 / 修改时间：11:33:31" itemprop="dateCreated datePublished" datetime="2020-06-17T10:54:20+08:00">2020-06-17</time>
+            </span>
+
+          
+            <span id="/2020/06/17/todesk/" class="post-meta-item leancloud_visitors" data-flag-title="盘点那些好用的远程桌面" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/06/17/todesk/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/06/17/todesk/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>🎈qq远程在win10会出现无法点击的问题，这个是因为qq的权限不足</p>
+<h1 id="1-Teamviewer"><a href="#1-Teamviewer" class="headerlink" title="1.Teamviewer"></a>1.Teamviewer</h1><p>🥕<a target="_blank" rel="noopener" href="https://www.teamviewer.cn/cn/">官网传送门~戳我</a></p>
+<p>TeamViewer是一个能在任何防火墙和NAT代理的后台用于远程控制的应用程序，桌面共享和文件传输的简单且快速的解决方案。为了连接到另一台计算机，只需要在两台计算机上同时运行 TeamViewer 即可，而不需要进行安装（也可以选择安装，安装后可以设置开机运行）。该软件第一次启动在两台计算机上自动生成伙伴 ID。只需要输入你的伙伴的ID到TeamViewer，然后就会立即建立起连接。</p>
+<p>🎈如果NAT不好，要连很长时间(移动网)，要用到内网穿透才能解决<br>🎈最近也不好用了，不登陆不让用😗</p>
+<h1 id="2-micosoft自带的"><a href="#2-micosoft自带的" class="headerlink" title="2.micosoft自带的"></a>2.micosoft自带的</h1><!--- more --->
+<p><img src="/img/n.jpg" alt="1"></p>
+<p>🎈打开方法:win+r 输入 mstsc  或者搜索远程桌面连接</p>
+<p>连接时要输入计算机名、用户名、密码</p>
+<p>android客户端:Remote Desktop<br>IOS:micsoft远程桌面</p>
+<p>🎈连接麻烦一些，可以无人值守，远程控制时电脑会自动锁屏（防偷窥）更适合个人使用</p>
+<h1 id="3-向日葵🥕官网传送门-戳我"><a href="#3-向日葵🥕官网传送门-戳我" class="headerlink" title="3.向日葵🥕官网传送门~戳我"></a>3.向日葵🥕<a target="_blank" rel="noopener" href="https://sunlogin.oray.com/personal/">官网传送门~戳我</a></h1><p><img src="/img/o.jpg" alt="1"><br><img src="/img/p.jpg" alt="1"><br>🎈跨平台支持<br>🎈各种应用案例（好像收费）<br>🎈简单操作，小白必备<br>🎈可以搭配专门的硬件实现远程启动</p>
+<h2 id="下面就是一下小众化的😉，没怎么测试过"><a href="#下面就是一下小众化的😉，没怎么测试过" class="headerlink" title="下面就是一下小众化的😉，没怎么测试过"></a>下面就是一下小众化的😉，没怎么测试过</h2><h1 id="4-Todesk-🥕官网传送门-戳我"><a href="#4-Todesk-🥕官网传送门-戳我" class="headerlink" title="4.Todesk  🥕官网传送门~戳我"></a>4.Todesk  🥕<a target="_blank" rel="noopener" href="https://www.todesk.com/">官网传送门~戳我</a></h1><p><img src="/img/q.jpg" alt="1"><br>🎈没怎么用过，自行测试</p>
+<h1 id="5-DBAdmin-🥕官网传送门-戳我"><a href="#5-DBAdmin-🥕官网传送门-戳我" class="headerlink" title="5.DBAdmin 🥕官网传送门~戳我"></a>5.DBAdmin 🥕<a target="_blank" rel="noopener" href="https://slser.com/">官网传送门~戳我</a></h1><p><img src="/img/r.jpg" alt="1"><br>🎈单文件版，分为控制端和被控端<br>🎈自带穿透，这个不错😉</p>
+<h1 id="6-VNC-🥕官网传送门-戳我"><a href="#6-VNC-🥕官网传送门-戳我" class="headerlink" title="6.VNC 🥕官网传送门~戳我"></a>6.VNC 🥕<a target="_blank" rel="noopener" href="https://www.realvnc.com/en/connect/download/viewer/">官网传送门~戳我</a></h1><p><img src="/img/s.jpg" alt="1"></p>
+<p>🎈程序猿都在用，看看这支持的平台就知道可怕<br>🎈搭配网穿不错</p>
+<h1 id="7-还有基于HTTPS的“GotoHTTP”-🥕官网传送门-戳我"><a href="#7-还有基于HTTPS的“GotoHTTP”-🥕官网传送门-戳我" class="headerlink" title="7.还有基于HTTPS的“GotoHTTP” 🥕官网传送门~戳我"></a>7.还有基于HTTPS的“GotoHTTP” 🥕<a target="_blank" rel="noopener" href="http://www.gotohttp.com/">官网传送门~戳我</a></h1><p>🎈免费|支持多平台|没有ios<br>🎈简单好用</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.haodigtal.xyz/2020/06/15/pe/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://s1.ax1x.com/2020/04/27/JfOaF0.jpg">
+      <meta itemprop="name" content="hao">
+      <meta itemprop="description" content="嘿！嘿！嘿！小白！小白！你咋又让拴住了!😆">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Tech-st ~by hao❤">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/06/15/pe/" class="post-title-link" itemprop="url">杏雨梨云启动维护系统</a>
+        </h2>
+
+        <div class="post-meta">
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-06-15 11:10:28 / 修改时间：11:16:50" itemprop="dateCreated datePublished" datetime="2020-06-15T11:10:28+08:00">2020-06-15</time>
+            </span>
+
+          
+            <span id="/2020/06/15/pe/" class="post-meta-item leancloud_visitors" data-flag-title="杏雨梨云启动维护系统" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/06/15/pe/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/06/15/pe/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>杏雨梨云启动维护系统2020庚子版V2<br>传送门：🥕<a target="_blank" rel="noopener" href="https://www.xyboot.com/">传送门</a> <em>717MB</em></p>
+<!--- more --->
+<p><img src="/img/m.jpg" alt="1"></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.haodigtal.xyz/2020/05/26/baidupan/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://s1.ax1x.com/2020/04/27/JfOaF0.jpg">
+      <meta itemprop="name" content="hao">
+      <meta itemprop="description" content="嘿！嘿！嘿！小白！小白！你咋又让拴住了!😆">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Tech-st ~by hao❤">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/05/26/baidupan/" class="post-title-link" itemprop="url">百度网盘高速下载</a>
+        </h2>
+
+        <div class="post-meta">
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-05-26 10:50:52" itemprop="dateCreated datePublished" datetime="2020-05-26T10:50:52+08:00">2020-05-26</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-06-03 22:40:29" itemprop="dateModified" datetime="2020-06-03T22:40:29+08:00">2020-06-03</time>
+              </span>
+
+          
+            <span id="/2020/05/26/baidupan/" class="post-meta-item leancloud_visitors" data-flag-title="百度网盘高速下载" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/05/26/baidupan/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/05/26/baidupan/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="百度云高速下载😉-cookie登陆-亿寻-速度起飞-43Mb-x2F-s-大文件不限制"><a href="#百度云高速下载😉-cookie登陆-亿寻-速度起飞-43Mb-x2F-s-大文件不限制" class="headerlink" title="百度云高速下载😉|cookie登陆|亿寻|速度起飞|43Mb&#x2F;s|大文件不限制|"></a>百度云高速下载😉|cookie登陆|亿寻|速度起飞|43Mb&#x2F;s|大文件不限制|</h1><p>下载地址-🥕<a target="_blank" rel="noopener" href="https://lanzous.com/icqh92b">传送门~戳我😗</a>作者n天前更新</p>
+<h1 id="使用cookie登录"><a href="#使用cookie登录" class="headerlink" title="使用cookie登录:"></a>使用cookie登录:</h1><!--- more --->
+<p>首先我们到这里，百度账号登录，到个人设置那里😉，随便一个你登陆的页面都行吧😅<br>然后按f12，到Application里面找cookie，打开箭头就能看到了😚<br>就是这个 -BUDSS- 如图所示<br><img src="/img/c.jpg" alt="1"><br>然后复制到亿寻里面使用cookie登录，就可以不用账号登录了😉<br>下载目录默认在 下载目录🎈</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.haodigtal.xyz/2020/05/26/2020%E5%8F%8A%E5%85%A8%E5%A5%97%E6%8F%92%E4%BB%B6/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://s1.ax1x.com/2020/04/27/JfOaF0.jpg">
+      <meta itemprop="name" content="hao">
+      <meta itemprop="description" content="嘿！嘿！嘿！小白！小白！你咋又让拴住了!😆">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Tech-st ~by hao❤">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/05/26/2020%E5%8F%8A%E5%85%A8%E5%A5%97%E6%8F%92%E4%BB%B6/" class="post-title-link" itemprop="url">Adobe Premiere Pro 2020 及全套插件</a>
+        </h2>
+
+        <div class="post-meta">
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-05-26 10:40:06 / 修改时间：15:19:06" itemprop="dateCreated datePublished" datetime="2020-05-26T10:40:06+08:00">2020-05-26</time>
+            </span>
+
+          
+            <span id="/2020/05/26/2020%E5%8F%8A%E5%85%A8%E5%A5%97%E6%8F%92%E4%BB%B6/" class="post-meta-item leancloud_visitors" data-flag-title="Adobe Premiere Pro 2020 及全套插件" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/05/26/2020%E5%8F%8A%E5%85%A8%E5%A5%97%E6%8F%92%E4%BB%B6/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/05/26/2020%E5%8F%8A%E5%85%A8%E5%A5%97%E6%8F%92%E4%BB%B6/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="🍉Adobe-Premiere-Pro-2020"><a href="#🍉Adobe-Premiere-Pro-2020" class="headerlink" title="🍉Adobe Premiere Pro 2020"></a>🍉Adobe Premiere Pro 2020</h1><h1 id="百度云-https-pan-baidu-com-s-1I8hvft9T2h87iZM8bSetLA"><a href="#百度云-https-pan-baidu-com-s-1I8hvft9T2h87iZM8bSetLA" class="headerlink" title="百度云:https://pan.baidu.com/s/1I8hvft9T2h87iZM8bSetLA"></a>百度云:<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1I8hvft9T2h87iZM8bSetLA">https://pan.baidu.com/s/1I8hvft9T2h87iZM8bSetLA</a></h1><p>插件:<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1zcHMSuVhRFOdTe3Zu_5PQQ">https://pan.baidu.com/s/1zcHMSuVhRFOdTe3Zu_5PQQ</a></p>
+<!--- more --->
+<p>🎈提取码:29bu<br>🎈提取码:vg27</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.haodigtal.xyz/2020/05/04/Netch/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://s1.ax1x.com/2020/04/27/JfOaF0.jpg">
+      <meta itemprop="name" content="hao">
+      <meta itemprop="description" content="嘿！嘿！嘿！小白！小白！你咋又让拴住了!😆">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Tech-st ~by hao❤">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/05/04/Netch/" class="post-title-link" itemprop="url">Netch:一款开源的网络游戏加速工具</a>
+        </h2>
+
+        <div class="post-meta">
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-05-04 11:33:53" itemprop="dateCreated datePublished" datetime="2020-05-04T11:33:53+08:00">2020-05-04</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-06-03 22:42:38" itemprop="dateModified" datetime="2020-06-03T22:42:38+08:00">2020-06-03</time>
+              </span>
+
+          
+            <span id="/2020/05/04/Netch/" class="post-meta-item leancloud_visitors" data-flag-title="Netch:一款开源的网络游戏加速工具" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/05/04/Netch/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/05/04/Netch/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>🎈说明:<br>Netch是一款今天开源的网络游戏加速器，支持Socks5、SSR、V2等协议，UDP NAT FullCone及指定进程加速不需要难维护的IP规则差不多功甚至堪比一些付费的加速器，当然前提需要你的线路给力，不然加速就没意义了，这里就分享下，具体效果就需要自行体验了。<br>🎈github:<a target="_blank" rel="noopener" href="https://github.com/netchx/Netch">https://github.com/netchx/Netch</a></p>
+<!--- more --->
+<p>🎈1.4.3下载x64: 🥕<a target="_blank" rel="noopener" href="https://github.com/NetchX/Netch/releases/download/1.4.3/Netch.x64-1.4.3.zip">传送门</a><br>✨添加修改订阅链接及备注功能（不出意外因该有bug）<br>✨监听电源事件，自动重启Netch服务<br>✨新增重装tap驱动功能<br>🎨添加了更多的日志记录<br>🎨优化Tcping<br>🎨Tap驱动版本更新为9.23.3.601<br>🎨更新V2ray Core<br>🎨更新ACL及V2ray Geo数据<br>🐛修复错误的Base64Url加解密<br>🐛修复其他bug</p>
+<p>🎈大多数的游戏规则都支持，后面的版本支持Nat检测<br>🎈加入了快速启动，设置好配置名，按下ctrl键单击空白按钮就可以新建快速启动😉<br>🎈可以解决联机游戏NAT严格的问题(看节点)<br><img src="/img/d.jpg" alt="1"></p>
+<p>🎈关于机场，可以看看这个blog😉，有很多推荐。 🥕<a target="_blank" rel="noopener" href="https://limbopro.xyz/865.html">传送门</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.haodigtal.xyz/2020/04/30/Chrome%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://s1.ax1x.com/2020/04/27/JfOaF0.jpg">
+      <meta itemprop="name" content="hao">
+      <meta itemprop="description" content="嘿！嘿！嘿！小白！小白！你咋又让拴住了!😆">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Tech-st ~by hao❤">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/04/30/Chrome%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/" class="post-title-link" itemprop="url">Chrome插件推荐</a>
+        </h2>
+
+        <div class="post-meta">
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-04-30 09:51:32" itemprop="dateCreated datePublished" datetime="2020-04-30T09:51:32+08:00">2020-04-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-11-17 22:41:09" itemprop="dateModified" datetime="2020-11-17T22:41:09+08:00">2020-11-17</time>
+              </span>
+
+          
+            <span id="/2020/04/30/Chrome%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/" class="post-meta-item leancloud_visitors" data-flag-title="Chrome插件推荐" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/04/30/Chrome%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/04/30/Chrome%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>关于Chrome好玩在它的插件，插件的集成让你的浏览器更实用！😉<br>🥕[传送门]是chrome商店的，需要梯子😗</p>
+<h1 id="1-crxMouse-Chrome™-手势-🥕传送门"><a href="#1-crxMouse-Chrome™-手势-🥕传送门" class="headerlink" title="1.crxMouse Chrome™ 手势  🥕传送门"></a>1.crxMouse Chrome™ 手势  🥕<a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/detail/crxmouse-chrome-gestures/jlgkpaicikihijadgifklkbpdajbkhjo">传送门</a></h1><p><img src="/img/e.jpg" alt="1"><br>功能包括:鼠标手势,超级拖曳,滚轮手势,摇杆手势,平滑滚动,标签页列表等</p>
+<!--- more --->
+<p>★ 鼠标手势、超级拖拽、平滑滚动手势和摇杆手势<br>★ 完全可自定义的鼠标手势、击键、操作和鼠标移动<br><img src="http://q9jjfohjp.bkt.clouddn.com/s1.png" alt="1"></p>
+<h1 id="3-书签侧边栏-🥕传送门"><a href="#3-书签侧边栏-🥕传送门" class="headerlink" title="3.书签侧边栏    🥕传送门"></a>3.书签侧边栏    🥕<a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/detail/bookmark-sidebar/jdbnofccmhefkmjbkkdkfiicjkgofkdh">传送门</a></h1><p>设置好后，就可以在网页的右边&#x2F;左边鼠标右击&#x2F;左击快速打开书签🎈<br><img src="/img/g.jpg" alt="1"><br><img src="/img/h.jpg" alt="1"></p>
+<h1 id="4-沙拉查词-聚合词典划词翻译-🥕传送门"><a href="#4-沙拉查词-聚合词典划词翻译-🥕传送门" class="headerlink" title="4.沙拉查词-聚合词典划词翻译    🥕传送门"></a>4.沙拉查词-聚合词典划词翻译    🥕<a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg">传送门</a></h1><p><img src="/img/i.jpg" alt="1"></p>
+<p>词典丰富</p>
+<ul>
+<li>精选大量词典，手工打磨排版，涵盖几乎所有领域</li>
+<li>自动发音，可选不同词典、英美音</li>
+<li>各个词典支持个性化调整</li>
+<li>整个网页翻译，谷歌和有道分级网页翻译</li>
+<li>右键支持更多词典页面直达，划词方式组合变幻无穷</li>
+<li>支持四种划词方式，支持鼠标悬浮取词</li>
+<li>查词面板可钉住可拖动可输入</li>
+<li>钉住可以配置不同划词方式，情境模式快速切换词典组合</li>
+<li>每个情境模式下设置相互独立，快速切换<br>全键盘操作亦可</li>
+<li>支持设置浏览器快捷键</li>
+<li>兼容 Vimium 全键盘操作</li>
+<li>三按 ctrl 打开快捷查词</li>
+<li>点击地址栏图标快速查词（可设快捷键）<br>🎈单词管理</li>
+<li>保存上下文以及翻译，准确理解单词<br>🎈支持添加生词</li>
+<li>可保存查词历史<br>支持黑白名单<br>🎈支持 PDF 划词</li>
+<li>支持 PDF 黑白名单<br>可显示当前页面二维码</li>
+</ul>
+<p>🎈<strong>只要在鼠标选中要查的词上面，就会出现一个沙拉，点击就是详细解释</strong><br><img src="/img/j.jpg" alt="1"></p>
+<h1 id="5-浮图秀-🥕传送门"><a href="#5-浮图秀-🥕传送门" class="headerlink" title="5.浮图秀   🥕传送门"></a>5.浮图秀   🥕<a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/detail/photoshow/mgpdnhlllbpncjpgokgfogidhoegebod">传送门</a></h1><p>🎈看大图无需再点，鼠标轻移，见你想见！——献给所有你钟爱的网站及屏幕前的你。</p>
+<p><img src="/img/k.jpg" alt="1"></p>
+<p>🎈对于所支持的网站，用户鼠标悬停在缩略图时即可看到相应的高分辨率图片。</p>
+<p>   当然还有Tampermonkey(油猴)，还有暴力猴什么的就不收录了😉</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.haodigtal.xyz/2020/04/29/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E5%88%A9%E7%94%A8%E7%AB%AF%E5%8F%A3%E6%90%AD%E5%BB%BA%E5%A4%9A%E4%B8%AA%E7%BD%91%E7%AB%99/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://s1.ax1x.com/2020/04/27/JfOaF0.jpg">
+      <meta itemprop="name" content="hao">
+      <meta itemprop="description" content="嘿！嘿！嘿！小白！小白！你咋又让拴住了!😆">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Tech-st ~by hao❤">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/04/29/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E5%88%A9%E7%94%A8%E7%AB%AF%E5%8F%A3%E6%90%AD%E5%BB%BA%E5%A4%9A%E4%B8%AA%E7%BD%91%E7%AB%99/" class="post-title-link" itemprop="url">宝塔面板利用端口搭建多个网站</a>
+        </h2>
+
+        <div class="post-meta">
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-04-29 15:54:18" itemprop="dateCreated datePublished" datetime="2020-04-29T15:54:18+08:00">2020-04-29</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-06-03 22:51:30" itemprop="dateModified" datetime="2020-06-03T22:51:30+08:00">2020-06-03</time>
+              </span>
+
+          
+            <span id="/2020/04/29/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E5%88%A9%E7%94%A8%E7%AB%AF%E5%8F%A3%E6%90%AD%E5%BB%BA%E5%A4%9A%E4%B8%AA%E7%BD%91%E7%AB%99/" class="post-meta-item leancloud_visitors" data-flag-title="宝塔面板利用端口搭建多个网站" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/04/29/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E5%88%A9%E7%94%A8%E7%AB%AF%E5%8F%A3%E6%90%AD%E5%BB%BA%E5%A4%9A%E4%B8%AA%E7%BD%91%E7%AB%99/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/04/29/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E5%88%A9%E7%94%A8%E7%AB%AF%E5%8F%A3%E6%90%AD%E5%BB%BA%E5%A4%9A%E4%B8%AA%E7%BD%91%E7%AB%99/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>#宝塔管理服务器很好用，而且自带cdn，小服务器也能带起来。<br>我用hyper-v跑centos玩服务器，再按个宝塔，爽哉！😙<br>🎈官网<a target="_blank" rel="noopener" href="https://www.bt.cn/">传送门</a></p>
+<p>🎈假如现在只有一个服务器，想在一个服务器搭建多个网站怎么整，<br>1.如果你有过了备案的域名，就可以用二级域名的方法，例如：<br>baidu.com<br>wenku.baidu.com</p>
+<!--- more --->
+
+<p>这个需要到你的域名管理那里添加<br>这个二级域名生成的是无限的</p>
+<p>2.可以用端口🤨（没域名，裸IP也可以~~~裸奔233）<br>网站一般htpp是80，https是443，其实其他端口也是可以用的，🎈只不过得手动在网址加端口才能访问😉<br>这是我现在添加的：<br><img src="/img/l.jpg" alt="1"></p>
+<p>现在添加一个网站，但是宝塔默认是不会让你添加重复的域名的，你可以先添加一个假的域名，eg：test.com<br>然后把你的真域名加进入后面要加上端口 eg：192.168.1.1:99<br>然后就可以把那个假的删了</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="hao"
+      src="https://s1.ax1x.com/2020/04/27/JfOaF0.jpg">
+  <p class="site-author-name" itemprop="name">hao</p>
+  <div class="site-description" itemprop="description">嘿！嘿！嘿！小白！小白！你咋又让拴住了!😆</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">15</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/1085106680" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;1085106680" rel="noopener" target="_blank"><i class="github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:1350065808@qq.com" title="E-Mail → mailto:1350065808@qq.com" rel="noopener" target="_blank"><i class="envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">hao</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script data-pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script color='' opacity='' zIndex='' count='' src="/lib/canvas-nest/canvas-nest-nomobile.min.js"></script>
+  <script size="300" alpha="0.6" zIndex="-1" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'OkCM3ojej5tYCdxcXOb9VMUQ-gzGzoHsz',
+      appKey     : 'vy21FStcLb4CC2NLVEaYxtfg',
+      placeholder: "来说几句吧！",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : true,
+      lang       : '' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
+
+    </div>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body>
+</html>
