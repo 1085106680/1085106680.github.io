@@ -1,1 +1,1 @@
-Static Blog about blog.haodigtal.xyz
+Static Blog about  [click here ](blog.haodigtal.xyz)
