@@ -1,1 +1,1 @@
-Static Blog
+Static Blog about blog.haodigtal.xyz
